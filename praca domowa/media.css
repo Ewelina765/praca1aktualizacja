@@ -1,0 +1,111 @@
+@media (max-width: 320px){
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+    .login-section {
+        width: auto
+    }
+    .image img {
+        width: 320px;
+        height: 253px;
+        padding: 10px 90px;    
+    }
+
+    .cow #letters {
+        width: 120px;
+        height: 120px;
+        top: 65px;
+        left: 155px;
+    }
+    .cow #sentence {
+        width: 109.92px;
+        height: 37.39px;
+        top: 190px;
+        left: 160px;
+    }
+    h1 {
+        height: 28px;
+        Width: 252px;
+
+    }
+    .login-section {
+        padding: 10px 120px;    
+    }
+
+    .button-social {
+        width: 256px;
+        height: 50px;
+    }
+       
+    .text-divider {
+        width: 252px;
+    }
+
+    .divider-divider {
+        width: 200px;
+    }
+
+    .divider-divider span {
+        font-size: 10px;
+        letter-spacing: 0.333333px;
+        line-height: 14px;
+    }
+
+    .text-divider1 {
+         width: 75px;
+    }
+
+    .text-devider {
+        margin-bottom: 20px;
+    }
+
+    .names {
+        flex-direction: column;
+    
+    }
+    .names label {
+        Width: 54px;
+        Height: 14px;
+
+    }
+    .input-wrapper input {
+        width: 256px;
+        height: 56px;
+    }
+    
+    .checkbox-wrapper {
+        width: 250px;
+        height: 14px;
+        margin-bottom: 30px;
+    }
+
+    .checkbox-wrapper span {
+        font-size: 12px;
+    }
+
+    .register {
+        width: 256px;
+        height: 50px;
+    }
+
+    .text-divider2 {
+        width: 256px;
+    }
+
+    .divider {
+        width: 160px;
+        height: 14px;
+    }
+
+    .divider span {
+        font-size: 12px;
+    }
+
+ 
+
+    
+}
+
