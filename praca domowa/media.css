@@ -1,30 +1,43 @@
-@media (max-width: 320px){
+/* @media (max-width: 320px) */
+{
     .container {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column-reverse;
-        
-        
+        flex-wrap: nowrap;
+        /* width: 100px; */
+            
     }
     .login-section {
-        width: auto
+        /* width: auto */
+        /* margin-left: auto; */
     }
-    .image img {
-        width: 320px;
-        height: 253px;
-        padding: 10px 90px;    
+    
+    .background {
+        width: 360px;
+        height: 280px;
+        /* padding: 10px 90px;   */
+        display: flex;
+        /* justify-content: flex-start; */
+        /* padding: 0 120px ; */
+        /* margin: auto; */
+        background-size: contain;
+         background-size: cover;
+         margin-left: auto;
+         /* padding-left: 120px; */
+
     }
 
     .cow #letters {
-        width: 120px;
+        width: 100%;
         height: 120px;
-        top: 65px;
-        left: 155px;
+        
     }
     .cow #sentence {
         width: 109.92px;
         height: 37.39px;
-        top: 190px;
-        left: 160px;
+        
     }
     h1 {
         height: 28px;
@@ -45,7 +58,7 @@
     }
 
     .divider-divider {
-        width: 200px;
+        width: 540px;
     }
 
     .divider-divider span {
@@ -104,7 +117,6 @@
         font-size: 12px;
     }
 
- 
 
     
 }

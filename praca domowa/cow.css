@@ -8,7 +8,8 @@
 .login-section {
     display: flex;
     flex-direction: column;
-    padding: 200px 90px 0px 90px;    
+    padding: 200px 90px 0px 90px;  
+    width: 40%;  
 }
 
 h1 {
@@ -26,9 +27,9 @@ h1 {
     border: 1px solid #284642;
     box-sizing: border-box;
     border-radius: 7px;
-    background-color: white;
+    background-color: #FFFFFF;
     height: 50px;
-    width: 538px;
+    width: 528px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +59,7 @@ h1 {
     width: 525px;
 }
 
-.text-divider1 {
+.text-divider-wrapper {
     background: #EDEBF0;
     height: 1px;
     width: 200px;
@@ -68,8 +69,6 @@ h1 {
 .divider-divider {
     width: 240px;
     height: 23px;
-    
-    
 
 }
 
@@ -91,7 +90,8 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
+    width: 528px;
 }
 
 .input-wrapper input {
@@ -99,16 +99,20 @@ h1 {
     box-sizing: border-box;
     border-radius: 7px;
     height: 60px;
+    padding-left: 10px;
+    
+    
 }
 
 .names {
     display: flex;
-    justify-content: space-between;  
     margin-top: 40px;
+    width: 550px;
 }
 
+
 .names input {
-    width: 250px;
+    width: 252px;
 }
 
 .input-wrapper label {
@@ -123,7 +127,7 @@ h1 {
     line-height: 20px;
     letter-spacing: 0.333333px;
     color: #64606A;
-    background-color: white;    
+    background-color: #FFFFFF;    
 }
 
 input::-webkit-input-placeholder {
@@ -161,7 +165,7 @@ input::-webkit-input-placeholder {
 }
 
 a {
-    color: black ;
+    color: #0a0a0a ;
     width: 133px;
     height: 0px;
     left: 130px;
@@ -176,6 +180,7 @@ a {
     background: #284642;
     border-radius: 7px;
     margin-bottom: 20px;
+    border: none;
 }
 
 .register span {
@@ -188,7 +193,7 @@ a {
     color: #FFFFFF;
 
 }
-.text-divider2 {
+.text-divider-long {
     width: 525px;
     height: 1px;
     background: #EDEBF0;
@@ -206,25 +211,83 @@ a {
 
     
 }
-.image img {
-    position: relative;
-    width: 1086px;
-    height: 1080px;
-    filter: brightness(50%);
+
+.image {
+    
 }
 
-.cow #letters {
-    position: absolute;
-    top: 230px;
-    right: 70px;
-    left: 1100px;
-    right: auto;    
-}
 .cow #sentence {
-    position: absolute;
     height: 95.73px;
-    Width: 281px;
-    top: 566px;
-    left: 1108px
+    Width: 280px;
 }
 
+
+button {
+    cursor: pointer;
+}
+.background {
+    width: 1386px;
+    height: 1080px;
+    background-image: url(/images/mainfoto.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply; 
+    background-color: rgba(40, 70, 66, 0.6);
+
+}
+.cow { 
+    display: flex;
+    flex-direction: column;
+}
+.underline {
+    border: 2px solid #284642;
+    border-radius: 63px;
+
+}
+a {
+ text-decoration: none;   
+}
+.login {
+    display: inline-block;
+    margin-left: 5px;
+}
+@media (max-width: 320px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        flex-wrap:  nowrap;
+    }
+    .names {
+        flex-direction: column;    
+    }
+    .names input {
+        width: 100%;
+    }
+    .background {
+        width: 600px;
+        height: 600px;
+
+    }
+    .checkbox-wrapper {
+       width: 300px;
+    }
+    .divider {
+        width: 300px;
+    }
+    h1 {
+        width: 200px;
+    }
+    .login-section {
+        padding: 30px;
+    }
+    .background {
+        justify-content: flex-start;  
+        flex-wrap: nowrap;  
+    }
+}   .cow {
+    margin-left: 30px;
+}
