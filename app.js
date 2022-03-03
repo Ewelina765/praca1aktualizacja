@@ -1,0 +1,1 @@
+console.log('Witamy na kursie Devstock');
